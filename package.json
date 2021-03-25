@@ -1,0 +1,25 @@
+{
+  "name": "rusticana",
+  "version": "1.0.0",
+  "description": "A restaurant page built with HTML, CSS3 and vanilla Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pointerish/Rusticana.git"
+  },
+  "keywords": [
+    "restaurant",
+    "vanilla-javascript",
+    "css3",
+    "html"
+  ],
+  "author": "Josias Alvarado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pointerish/Rusticana/issues"
+  },
+  "homepage": "https://github.com/pointerish/Rusticana#readme"
+}
