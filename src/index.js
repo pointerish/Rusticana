@@ -30,7 +30,7 @@ const pageLoad = () => {
       aboutTab.style.display = 'none';
     }
     if (event.target === aboutBtn) {
-      aboutTab.style.display = 'none';
+      menuTab.style.display = 'none';
       reservationTab.style.display = 'none';
       aboutTab.style.display = 'block';
     }
