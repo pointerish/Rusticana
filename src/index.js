@@ -1,1 +1,3 @@
-alert('Hey, pay attention!')
+import { pageLoad } from './pageLoad';
+
+pageLoad();
