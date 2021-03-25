@@ -16,7 +16,7 @@ const buildHeader = () => {
     aboutBtn: 'About',
   };
   Object.keys(headerItems).forEach((key) => {
-    const listItem = document.createElement('li');
+    const listItem = document.createElement('div');
     listItem.textContent = headerItems[key];
     listItem.className = key;
     listItems.appendChild(listItem);
