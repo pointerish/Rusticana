@@ -6,6 +6,9 @@ const buildHeader = () => {
   headerContainer.appendChild(headerItemsContainer);
   const logoItem = document.createElement('div');
   logoItem.className = 'logo';
+  const logoP = document.createElement('p');
+  logoP.textContent = 'Rusticana Ristorante';
+  logoItem.appendChild(logoP);
   headerItemsContainer.appendChild(logoItem);
   const listItems = document.createElement('div');
   listItems.className = 'list-items';
