@@ -3,11 +3,9 @@ import { reservationGen } from './reservationGen';
 import { aboutGen } from './aboutGen';
 
 const buildTabs = () => {
-  // Main container for tabs
   const tabsContainer = document.createElement('div');
   tabsContainer.className = 'tabs';
 
-  //Now I need to build the three needed tabs (Menu, Reservations, and About)
   const menuTab = document.createElement('section');
   menuTab.className = 'visible';
   menuTab.appendChild(menuGen());
