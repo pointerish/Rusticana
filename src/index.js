@@ -8,7 +8,7 @@ import css from './styles/style.css';
 const pageLoad = () => {
   const htmlElements = [buildHeader(), buildTabs(), buildFooter()];
   const container = document.querySelector('#content');
-  for (let j = 0; j <= htmlElements.length; j++) {
+  for (let j = 0; j <= htmlElements.length; j+=1) {
     container.appendChild(htmlElements[j]);
   }
 

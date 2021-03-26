@@ -10,7 +10,7 @@ const menuGen = () => {
   const items = document.createElement('div');
   items.className = 'manu-items';
 
-  for (let j = 0; j <= menu.length; j++) {
+  for (let j = 0; j <= menu.length; j+=1) {
     const dishElement = document.createElement('div');
     dishElement.className = 'manu-item';
     dishElement.textContent = menu[j];
