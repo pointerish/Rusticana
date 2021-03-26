@@ -4,6 +4,8 @@ A simple restaurant page built with HTML, CSS3 and vanilla Javascript.
 
 It has enough CSS to make it presentable as this was built to practice event handling and the creation of a tab-driven navigation bar using vanilla Javascript.
 
+[Live Demo](https://pointerish.github.io/Rusticana/)
+
 ## Usage
 
 ### Requirements
