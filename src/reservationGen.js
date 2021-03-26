@@ -6,4 +6,4 @@ const reservationGen = () => {
   return element;
 };
 
-export { reservationGen };
+export default reservationGen;

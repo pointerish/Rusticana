@@ -20,4 +20,4 @@ const menuGen = () => {
   return items;
 };
 
-export { menuGen };
+export default menuGen

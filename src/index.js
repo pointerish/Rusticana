@@ -1,9 +1,9 @@
 import { buildHeader } from './buildHeader';
 import { buildTabs } from './buildTabs';
 import { buildFooter } from './buildFooter';
-
-import css from "./styles/style.css";
-
+/* eslint-disable */
+import css from './styles/style.css';
+/* eslint-enable */
 
 const pageLoad = () => {
   const htmlElements = [buildHeader(), buildTabs(), buildFooter()];

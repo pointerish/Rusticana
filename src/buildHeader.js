@@ -27,4 +27,4 @@ const buildHeader = () => {
   return headerContainer;
 };
 
-export { buildHeader };
+export default buildHeader;

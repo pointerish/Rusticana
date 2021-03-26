@@ -24,4 +24,4 @@ const buildTabs = () => {
   return tabsContainer;
 };
 
-export { buildTabs };
+export default buildTabs
