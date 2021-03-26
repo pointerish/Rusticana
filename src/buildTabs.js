@@ -1,6 +1,6 @@
-import { menuGen } from './menuGen';
-import { reservationGen } from './reservationGen';
-import { aboutGen } from './aboutGen';
+import menuGen from './menuGen';
+import reservationGen from './reservationGen';
+import aboutGen from './aboutGen';
 
 const buildTabs = () => {
   const tabsContainer = document.createElement('div');
@@ -24,4 +24,4 @@ const buildTabs = () => {
   return tabsContainer;
 };
 
-export default buildTabs
+export default buildTabs;

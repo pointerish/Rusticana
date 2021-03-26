@@ -16,8 +16,8 @@ const menuGen = () => {
     dishElement.textContent = dish;
     items.appendChild(dishElement);
   }
-  
+
   return items;
 };
 
-export default menuGen
+export default menuGen;

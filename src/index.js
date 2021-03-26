@@ -1,6 +1,6 @@
-import { buildHeader } from './buildHeader';
-import { buildTabs } from './buildTabs';
-import { buildFooter } from './buildFooter';
+import buildHeader from './buildHeader';
+import buildTabs from './buildTabs';
+import buildFooter from './buildFooter';
 /* eslint-disable */
 import css from './styles/style.css';
 /* eslint-enable */
@@ -23,7 +23,7 @@ const pageLoad = () => {
   reservationTab.style.display = 'none';
   aboutTab.style.display = 'none';
 
-  window.addEventListener('click', event => {
+  window.addEventListener('click', (event) => {
     if (event.target === menuBtn) {
       menuTab.style.display = 'flex';
       reservationTab.style.display = 'none';
@@ -40,6 +40,6 @@ const pageLoad = () => {
       aboutTab.style.display = 'flex';
     }
   });
-}
+};
 
 pageLoad();
