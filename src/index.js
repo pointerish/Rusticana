@@ -1,17 +1,15 @@
 import buildHeader from './buildHeader';
 import buildTabs from './buildTabs';
-import buildFooter from './buildFooter';
 /* eslint-disable */
 import css from './styles/style.css';
 /* eslint-enable */
 
 const pageLoad = () => {
-  const htmlElements = [buildHeader(), buildTabs(), buildFooter()];
+  const headerElement = buildHeader();
+  const tabElement = buildTabs();
   const container = document.querySelector('.content');
-  for (let j = 0; j <= htmlElements.length; j += 1) {
-    container.appendChild(htmlElements[j]);
-  }
-
+  container.appendChild(headerElement);
+  container.appendChild(tabElement);
   const menuBtn = document.querySelector('.menuBtn');
   const reservationBtn = document.querySelector('.reservationsBtn');
   const aboutBtn = document.querySelector('.aboutBtn');
