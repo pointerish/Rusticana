@@ -8,8 +8,8 @@ import css from './styles/style.css';
 const pageLoad = () => {
   const htmlElements = [buildHeader(), buildTabs(), buildFooter()];
   const container = document.querySelector('#content');
-  for (const element of htmlElements) {
-    container.appendChild(element);
+  for (let j = 0; j <= htmlElements.length; j++) {
+    container.appendChild(htmlElements[j]);
   }
 
   const menuBtn = document.querySelector('.menuBtn');
