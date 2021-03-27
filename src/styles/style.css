@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Brygada+1918);
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Brygada 1918", serif;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+#content {
+  height: 100vh;
+}
+
+.header {
+  background-color: #eb9e34;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo > p {
+  padding-left: 1rem;
+}
+
+.list-items {
+  cursor: pointer;
+  display: flex;
+}
+
+.list-items > div {
+  padding: 1rem;
+}
+
+.list-items > div:hover {
+  background-color: #d6621a;
+  text-decoration: underline;
+  text-decoration-color: #000;
+  font-weight: bolder;
+}
+
+.menu-section {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.reservation-section {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-section {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > small {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

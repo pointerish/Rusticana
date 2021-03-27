@@ -4,7 +4,8 @@
   "description": "A restaurant page built with HTML, CSS3 and vanilla Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,10 @@
   },
   "homepage": "https://github.com/pointerish/Rusticana#readme",
   "devDependencies": {
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.28.0",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
